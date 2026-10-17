@@ -1,0 +1,21 @@
+{
+  "name": "expresscicd",
+  "version": "1.0.0",
+  "description": "learning how to run ci/cd on a simple express project",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "author": "Nam Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^3.2.7"
+  }
+}
