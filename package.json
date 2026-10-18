@@ -5,6 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
+    "start": "node index.ts",
     "test": "vitest run"
   },
   "author": "Nam Nguyen",
