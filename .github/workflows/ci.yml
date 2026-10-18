@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Run linting
+      - name: Run type check
         run: npx tsc --noEmit
       
       - name: Run testing

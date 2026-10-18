@@ -15,7 +15,7 @@ describe("todos", () => {
 
   it("removes an existing todo", () => {
     const t = addTodo("x");
-    expect(removeTodo(t.id)).toBe(false);
+    expect(removeTodo(t.id)).toBe(true);
   });
 
   it("returns false when removing a missing id", () => {
